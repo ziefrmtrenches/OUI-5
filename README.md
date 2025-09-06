@@ -1,3 +1,3 @@
 OriginOS WEB 
 
-OOSP - OriginWEB open source project
+OOSP - OriginWEB Open Source Project
