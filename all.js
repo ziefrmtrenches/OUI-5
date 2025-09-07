@@ -11,7 +11,7 @@ let home_wallpaper = "";
 let lock_wallpaper = "";
 
 document.getElementById("phoneName").textContent =
-  localStorage.getItem("phoneName") || "Your Phone";
+  localStorage.getItem("phoneName") || "Redmi K70E";
 
 initOriginDB(() => {
   getData("lock_wallpaper", (value) => {
@@ -94,14 +94,14 @@ updateTime();
 setInterval(updateTime, 10000);
 
 const boxes = {
-  box1: document.getElementById("box1"),
+  box8: document.getElementById("box1"),
   box2: document.getElementById("box2"),
   box3: document.getElementById("box3"),
   box4: document.getElementById("box4"),
   box5: document.getElementById("box5"),
   box6: document.getElementById("box6"),
   box7: document.getElementById("box7"),
-  box8: document.getElementById("box8"),
+  box1: document.getElementById("box8"),
   box9: document.getElementById("box9"),
   box10: document.getElementById("box10"),
   box11: document.getElementById("box11"),
@@ -111,14 +111,14 @@ const boxes = {
 document.querySelector(".khayapp").classList.add("lock");
 
 const appopen = {
-  box1: document.getElementById("app1"),
+  box8: document.getElementById("app1"),
   box2: document.getElementById("app2"),
   box3: document.getElementById("app3"),
   box4: document.getElementById("app4main"),
   box5: document.getElementById("app5"),
   box6: document.getElementById("app6"),
   box7: document.getElementById("app7"),
-  box8: document.getElementById("app8"),
+  box1: document.getElementById("app8"),
   box9: document.getElementById("app9"),
   box10: document.getElementById("app10"),
   box11: document.getElementById("app11"),
@@ -126,14 +126,14 @@ const appopen = {
 };
 
 const clickables = {
-  box1: document.getElementById("clicke1"),
+  box8: document.getElementById("clicke8"),
   box2: document.getElementById("clicke2"),
   box3: document.getElementById("clicke3"),
   box4: document.getElementById("clicke4"),
   box5: document.getElementById("clicke5"),
   box6: document.getElementById("clicke6"),
   box7: document.getElementById("clicke7"),
-  box8: document.getElementById("clicke8"),
+  box1: document.getElementById("clicke1"),
   box9: document.getElementById("clicke9"),
   box10: document.getElementById("clicke10"),
   box11: document.getElementById("clicke11"),
