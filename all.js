@@ -11,7 +11,7 @@ let home_wallpaper = "";
 let lock_wallpaper = "";
 
 document.getElementById("phoneName").textContent =
-  localStorage.getItem("phoneName") || "Redmi K70E";
+  localStorage.getItem("phoneName") || "Redmi K60";
 
 initOriginDB(() => {
   getData("lock_wallpaper", (value) => {
@@ -126,14 +126,14 @@ const appopen = {
 };
 
 const clickables = {
-  box8: document.getElementById("clicke8"),
+  box8: document.getElementById("clicke1"),
   box2: document.getElementById("clicke2"),
   box3: document.getElementById("clicke3"),
   box4: document.getElementById("clicke4"),
   box5: document.getElementById("clicke5"),
   box6: document.getElementById("clicke6"),
   box7: document.getElementById("clicke7"),
-  box1: document.getElementById("clicke1"),
+  box1: document.getElementById("clicke8"),
   box9: document.getElementById("clicke9"),
   box10: document.getElementById("clicke10"),
   box11: document.getElementById("clicke11"),

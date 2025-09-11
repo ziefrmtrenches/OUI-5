@@ -11,7 +11,7 @@ const translations = {
     wrong_old: "Incorrect old password",
     not_match: "Passwords do not match",
     remove_success: "Password removed successfully",
-    forgot: "Forgot password",
+    forgot: "Forgot Password",
   },
   vi: {
     create_new: "Create new password",

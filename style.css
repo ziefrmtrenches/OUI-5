@@ -414,14 +414,14 @@ body::-webkit-scrollbar-thumb:hover {
   right: 30.5%;
   height: 80px;
 }
+#clicke5 {
+  bottom: 150px;
+  right: 10%;
+}
 #clicke4 {
   bottom: 35px;
   right: 10%;
   height: 80px;
-}
-#clicke5 {
-  bottom: 150px;
-  right: 10%;
 }
 #clicke6 {
   bottom: 150px;
