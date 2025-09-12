@@ -7,7 +7,7 @@
   --bg--size_height_phone: 700px;
   --bg--border_radius_phone: 42px;
   --bg--scale_phone: 0.8;
-  --bg--border_radius_system: 35px; /* 20-35px */
+  --bg--border_radius_system: 0px; /* 20-35px */
   --bg--background: #eaeaea;
   --bg--background2: #ffffff;
   --bg--color: #101010;
@@ -304,7 +304,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 #box9 {
   --bg--originos: url("originos_data/system_clock.png");
-  left: 10%;
+  left: 10000%;
   background-color: #fefdfc;
   top: calc(var(--bg--size_height_phone) - 280px);
   width: calc(60px + 20.5%);
@@ -312,7 +312,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 #box10 {
   --bg--originos: url("originos_data/system_compass.png");
-  left: 10%;
+  left: 100000%;
   background-color: #fefdfd;
   top: calc(var(--bg--size_height_phone) - 350px);
   width: calc(60px + 20.5%);
@@ -328,7 +328,7 @@ body::-webkit-scrollbar-thumb:hover {
 #box12 {
   --bg--originos: url("./originos_data/other/tiktok.png");
   background-color: rgba(255, 255, 255, 0.5);
-  right: 10%;
+  right: 10000%;
   width: calc(60px + 20.5%);
   top: calc(var(--bg--size_height_phone) - 350px);
 }
@@ -964,7 +964,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 27px;
   height: 14px;
   background: rgba(78, 78, 78, 0.5);
-  border-radius: 5px;
+  border-radius: 3px;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -1001,12 +1001,12 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .battery-num {
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 1000%;
+  top: 100%;
   translate: -50% -50%;
   font-family: "Fredoka";
   transition: all 0.3s;
@@ -1021,11 +1021,11 @@ body::-webkit-scrollbar-thumb:hover {
   transform: translateX(-50%);
   position: absolute;
   display: fixed;
-  top: 34px;
+  top: 1004px;
   left: 50%;
-  height: 25px;
-  width: 25.5px;
-  border-radius: 50%;
+  height: 20px;
+  width: 50px;
+  border-radius: 20%;
   background-color: #000000;
   z-index: 123167233;
   transition: transform 0.2s;
@@ -3234,7 +3234,7 @@ input[type="range"] {
   position: absolute;
   display: flex;
   top: 33px;
-  left: 50%;
+  left: 1000%;
   height: 25px;
   width: 25px;
   transform: translateX(-50%) scale(1);
@@ -3295,7 +3295,7 @@ input[type="range"] {
 .image_island_right {
   position: absolute;
   right: 2px;
-  top: 50%;
+  top: 10000%;
   transform: translateY(-50%) scale(0.9);
   width: 20px;
   height: 20px;
@@ -3314,7 +3314,7 @@ input[type="range"] {
 .island_circle {
   position: absolute;
   display: flex;
-  top: 33px;
+  top: 1003px;
   left: 50%;
   height: 25px;
   width: 25px;
@@ -3356,7 +3356,7 @@ input[type="range"] {
 .island2 {
   position: absolute;
   display: flex;
-  top: 33px;
+  top: 10003px;
   left: 50%;
   height: 25px;
   width: 25px;
@@ -4231,7 +4231,7 @@ input[type="range"] {
   height: 201px;
   width: 250px;
   align-items: start;
-  left: 51%;
+  left: 50%;
   transform: translateX(-50%) translateY(100%);
   transition: 0.3s;
 }

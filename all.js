@@ -11,7 +11,7 @@ let home_wallpaper = "";
 let lock_wallpaper = "";
 
 document.getElementById("phoneName").textContent =
-  localStorage.getItem("phoneName") || "Redmi K60";
+  localStorage.getItem("phoneName") || " ";
 
 initOriginDB(() => {
   getData("lock_wallpaper", (value) => {
