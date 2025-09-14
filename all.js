@@ -11,7 +11,7 @@ let home_wallpaper = "";
 let lock_wallpaper = "";
 
 document.getElementById("phoneName").textContent =
-  localStorage.getItem("phoneName") || " ";
+  localStorage.getItem("phoneName") || "Xiaomi 11 ";
 
 initOriginDB(() => {
   getData("lock_wallpaper", (value) => {
@@ -95,15 +95,15 @@ setInterval(updateTime, 10000);
 
 const boxes = {
   box8: document.getElementById("box1"),
-  box2: document.getElementById("box2"),
-  box3: document.getElementById("box3"),
+  box2: document.getElementById("box1"),
+  box3: document.getElementById("box4"),
   box4: document.getElementById("box4"),
   box5: document.getElementById("box5"),
   box6: document.getElementById("box6"),
   box7: document.getElementById("box7"),
   box1: document.getElementById("box8"),
   box9: document.getElementById("box9"),
-  box10: document.getElementById("box10"),
+  box10: document.getElementById("box9"),
   box11: document.getElementById("box11"),
   box12: document.getElementById("box12"),
 };
@@ -112,30 +112,30 @@ document.querySelector(".khayapp").classList.add("lock");
 
 const appopen = {
   box8: document.getElementById("app1"),
-  box2: document.getElementById("app2"),
-  box3: document.getElementById("app3"),
+  box2: document.getElementById("app1"),
+  box3: document.getElementById("app4main"),
   box4: document.getElementById("app4main"),
   box5: document.getElementById("app5"),
   box6: document.getElementById("app6"),
   box7: document.getElementById("app7"),
   box1: document.getElementById("app8"),
   box9: document.getElementById("app9"),
-  box10: document.getElementById("app10"),
+  box10: document.getElementById("app9"),
   box11: document.getElementById("app11"),
   box12: document.getElementById("app12"),
 };
 
 const clickables = {
   box8: document.getElementById("clicke1"),
-  box2: document.getElementById("clicke2"),
-  box3: document.getElementById("clicke3"),
+  box2: document.getElementById("clicke1"),
+  box3: document.getElementById("clicke4"),
   box4: document.getElementById("clicke4"),
   box5: document.getElementById("clicke5"),
   box6: document.getElementById("clicke6"),
   box7: document.getElementById("clicke7"),
   box1: document.getElementById("clicke8"),
   box9: document.getElementById("clicke9"),
-  box10: document.getElementById("clicke10"),
+  box10: document.getElementById("clicke9"),
   box11: document.getElementById("clicke11"),
   box12: document.getElementById("clicke12"),
 };
